@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chip-8</title>
+    
+</head>
+<body>
+    <div class="rom-selector">
+        <span id="loading-text"></span>
+        <button id="reload">RELOAD</button>
+        ROM : 
+        <select name="roms" id="roms">
+            <option value="BLITZ">BLITZ</option>
+            <option value="BLINKY">BLINKY</option>
+            <option value="BRICK">BRICK</option>
+            <option value="MAZE">MAZE</option>
+            <option value="PICTURE">PICTURE</option>
+            <option value="TANK">TANK</option>
+            <option value="SPACE-INVADER">SPACE-INVADER</option>
+            
+        </select>
+    </div>
+    <main>
+        <div class="console">
+            <h1>Chip-8 EMULATOR</h1>
+            <canvas id="screen"></canvas>
+            <script src="bundle.js"></script>
+    
+    
+    
+        </div>
+
+    </main>
+   
+
+    
+
+
+    
+</body>
+</html>
